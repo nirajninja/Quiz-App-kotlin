@@ -76,6 +76,7 @@ class QuizQuestionsActivity : AppCompatActivity() ,View.OnClickListener{
 
                 R.id.btn_submit -> {
                     if (mSelectedOptionPosition == 0) {
+                        mCurrentPosition++
                         when {
                             mCurrentPosition <= mQuestionList!!.size -> {
                                 setQuestion()

@@ -42,7 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
             android:indeterminate="false"
             android:max="10"
             android:minHeight="50dp"
